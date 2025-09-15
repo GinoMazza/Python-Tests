@@ -86,8 +86,29 @@ age = 12
 message = "Grown" if age >= 18 else "Child"
 print(message)
 
-#------ Logical Operators ------
+#------ LOGICAL OPERATORS ------
 print("--- Logical Operators ---")
 print(True and False)
 print(True or False)
 print(not True)
+
+#------ FOR LOOPS ------
+print("--- For Loops ---")
+for i in range(3):
+    print("Iteration (Range numero solo)", i)
+
+for j in range(1, 4):
+    print("Iteration (Range entre a y b)", j)
+
+for k in range(1, 8, 2):
+    print("Iteration (Range tercer parametro aumento)", k)
+
+# For..Else
+successfull = False
+for i in range(3):
+    print("Attempt", i)
+    if successfull:
+        print("Successfull!")
+        break
+else: # se ejecuta solo si el for termina sin early termination
+    print("Attempted 3 times and failed")
