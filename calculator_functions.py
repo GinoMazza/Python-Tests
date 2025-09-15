@@ -1,7 +1,3 @@
-# pylint: disable=missing-function-docstring
-# pylint: disable=missing-class-docstring
-
-
 def sumar(a, b):
     return a + b
 
