@@ -20,7 +20,7 @@ class Calculadora:
         print("----- PYTHON CALCULATOR -----")
         print("1- Sumar")
         print("2- Restar")
-        print("3- Multiplicar")
+        print("3- Producto")
         print("4- Dividir")
         print("0- Salir\n")
         opcion = input("Seleccione una opcion: ")
