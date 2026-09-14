@@ -15,7 +15,7 @@ def dividir(a, b):
 
 
 print("----- PYTHON CALCULATOR -----")
-print("El resultado de la suma de 10 y 5 es:", sumar(10, 5))
-print("El resultado de la resta de 10 y 5 es:", restar(10, 5))
-print("El resultado de la multiplicacion de 10 y 5 es:", multiplicar(10, 5))
-print("El resultado de la division de 10 y 5 es:", dividir(10, 5))
+print("El resultado es:", sumar(10, 5))
+print("El resultado es:", restar(10, 5))
+print("El resultado es:", multiplicar(10, 5))
+print("El resultado es:", dividir(10, 5))
